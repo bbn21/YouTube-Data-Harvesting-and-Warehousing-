@@ -1,0 +1,11 @@
+
+googleapiclient.discovery
+pymongo
+psycopg2 
+streamlit
+pandas 
+isodate
+random
+streamlit_option_menu 
+PIL 
+plotly.express 
