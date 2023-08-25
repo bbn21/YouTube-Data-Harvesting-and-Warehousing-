@@ -19,6 +19,7 @@ collection = db['YouTube']
 # ----------------------------------------------- Sql Python Connectivity ----------------------------------------------
 def init_connection():
     return psycopg2.connect(**st.secrets["postgres"])
+cursor = init_connection()
 
 mydb = pg2.connect(host='localhost', user='postgres', port='5433', password='bhadri@0121', database='youtube')
 cursor = mydb.cursor()
