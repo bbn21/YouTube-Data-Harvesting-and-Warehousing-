@@ -5,6 +5,5 @@ psycopg2
 streamlit
 pandas 
 isodate
-random
-streamlit_option_menu 
-plotly.express 
+streamlit-option-menu 
+plotly-express 
