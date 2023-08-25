@@ -17,12 +17,8 @@ db = client.youtube_data
 collection = db['YouTube']
 
 # ----------------------------------------------- Sql Python Connectivity ----------------------------------------------
-def init_connection():
-    return pg2.connect(**st.secrets.postgres)
-conn = init_connection()
-
-#mydb = pg2.connect(host='localhost', user='postgres', port='5433', password='bhadri@0121', database='youtube')
-#cursor = mydb.cursor()
+mydb = pg2.connect(host='localhost', user='postgres', port='5433', password='bhadri@0121', database='youtube')
+cursor = mydb.cursor()
 
 # --------------------------------- BUILDING CONNECTION WITH YOUTUBE API -----------------------------------------------
 api_key = "AIzaSyDKfqSc3zxBjo-MrQ9wokJPTj0uSx3tPaA"
