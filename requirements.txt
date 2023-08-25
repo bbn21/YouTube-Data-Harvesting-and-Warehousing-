@@ -1,7 +1,8 @@
 
 google-api-python-client
 pymongo
-psycopg2 
+psycopg2
+psycopg2-binary
 streamlit
 pandas 
 isodate
